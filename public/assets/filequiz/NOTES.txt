@@ -1,0 +1,36 @@
+CARA MENGAKSES SSH SERVER
+
+Account : 
+VPN (https://vpn.poskota.co.id/) :
+- username : admin
+- password : #poskota2019#
+
+SSH Client Account :
+address : 192.168.20.51
+username : poskota
+password : #poskota2019#
+
+1. Buat Akun pada Pritunl VPN (DOKUMENTASI VPN)
+2. Install Pritunl Client dan masukan profile url
+3. pilih connect dan masukan pin sesuai didaftarkan
+4. setelah connect vpn, buka SSH Client (termius) dan attempt login dengan credential SSH Client Account
+5. berhasil connect SSH.
+
+
+Connected to [poskota@jalanjajang] aka Production Server
+
+directory: 
+- backup
+	- repository backup untuk semua file yang ada di production server
+- bin
+- deployment
+	- repository deployment dalam bentuk file yaml
+- minio
+	- Storage suite untuk kubernetes 
+- ssl_sectigo
+- tmp
+- workspaces
+	- docker
+	- k8s
+	- source
+
